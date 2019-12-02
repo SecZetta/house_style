@@ -11,13 +11,13 @@ module HouseStyle
       template 'rubocop.yml', '.rubocop.yml'
     end
 
-    def create_rspec_rubocop_yml
-      template 'rspec-rubocop.yml', 'spec/.rubocop.yml'
-    end
+    #def create_rspec_rubocop_yml
+    #  template 'rspec-rubocop.yml', 'spec/.rubocop.yml'
+    #end
 
-    def create_db_migrate_rubocop_yml
-      template 'db_migrate_rubocop.yml', 'db/migrate/.rubocop.yml' if Dir.exist?(db_path)
-    end
+    #def create_db_migrate_rubocop_yml
+    #  template 'db_migrate_rubocop.yml', 'db/migrate/.rubocop.yml' if Dir.exist?(db_path)
+    #end
 
     private
 
