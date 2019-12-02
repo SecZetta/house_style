@@ -66,3 +66,5 @@ Style/AccessModifierDeclarations:
 # Added Styles
 Style/MethodCalledOnDoEndBlock:
   Enabled: false
+Metrics/LineLength:
+  Enabled: false
