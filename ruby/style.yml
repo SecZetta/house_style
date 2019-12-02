@@ -62,3 +62,7 @@ Style/StringMethods:
   Enabled: true
 Style/AccessModifierDeclarations:
   Enabled: false
+  
+# Added Styles
+Style/MethodCalledOnDoEndBlock:
+  Enabled: false
