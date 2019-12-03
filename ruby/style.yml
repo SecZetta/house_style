@@ -63,10 +63,3 @@ Style/StringMethods:
 Style/AccessModifierDeclarations:
   Enabled: false
   
-# Added Styles
-Style/MethodCalledOnDoEndBlock:
-  Enabled: false
-Metrics/LineLength:
-  Enabled: false
-Metrics/BlockLength:
-  Enabled: false
