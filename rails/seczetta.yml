@@ -1,0 +1,44 @@
+Rails/Output:
+  Enabled: false
+
+# rails - temporary?
+Rails/OutputSafety: # NeUuid.raw
+  Enabled: false
+Rails/ReversibleMigration:
+  Enabled: false
+Rails/SkipsModelValidations:
+  Enabled: false
+Rails/CreateTableWithTimestamps:
+  Enabled: false
+
+# rails -w/o autocorrect
+Rails/RakeEnvironment:
+  Enabled: false
+Rails/FilePath:
+  Enabled: false
+Rails/Presence:
+  Enabled: false
+Rails/Delegate:
+  Enabled: false
+Rails/Date:
+  Enabled: false
+Rails/TimeZone:
+  Enabled: false
+Rails/ApplicationRecord:
+  Enabled: false
+
+# rails - autocorrect
+Rails/Present:
+  Enabled: false
+Rails/Blank:
+  Enabled: false
+Rails/ActiveRecordAliases:
+  Enabled: false
+Rails/PluralizationGrammar:
+  Enabled: false
+Rails/Validation:
+  Enabled: false
+Rails/EnvironmentComparison:
+  Enabled: false
+Rails/DynamicFindBy:
+  Enabled: false
