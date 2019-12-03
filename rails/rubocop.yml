@@ -1,1 +1,4 @@
-inherit_from: ../ruby/rubocop.yml
+inherit_from: 
+  - ../ruby/rubocop.yml
+  - ./default.yml
+  - ./seczetta.yml
