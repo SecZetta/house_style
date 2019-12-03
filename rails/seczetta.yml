@@ -1,3 +1,9 @@
+AllCops:
+  Exclude:
+    - db/seed_data/**
+    - spec/dummy/bin/**
+    - db/migrate/** # super temporary
+
 Rails/Output:
   Enabled: false
 
