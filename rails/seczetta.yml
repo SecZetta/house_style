@@ -6,6 +6,8 @@ AllCops:
 
 Rails/Output:
   Enabled: false
+Rails/LexicallyScopedActionFilter:
+  Enabled: false
 
 # rails - temporary?
 Rails/OutputSafety: # NeUuid.raw
@@ -15,6 +17,14 @@ Rails/ReversibleMigration:
 Rails/SkipsModelValidations:
   Enabled: false
 Rails/CreateTableWithTimestamps:
+  Enabled: false
+Rails/HasAndBelongsToMany:
+  Enabled: false # for mongoid
+Rails/ApplicationMailer:
+  Enabled: false
+Rails/HelperInstanceVariable:
+  Enabled: false
+Rails/ApplicationController:
   Enabled: false
 
 # rails -w/o autocorrect
@@ -32,6 +42,10 @@ Rails/TimeZone:
   Enabled: false
 Rails/ApplicationRecord:
   Enabled: false
+Rails/BelongsTo:
+  Enabled: false
+Rails/ReadWriteAttribute:
+  Enabled: false
 
 # rails - autocorrect
 Rails/Present:
@@ -47,4 +61,10 @@ Rails/Validation:
 Rails/EnvironmentComparison:
   Enabled: false
 Rails/DynamicFindBy:
+  Enabled: false
+Rails/FindEach:
+  Enabled: false
+Rails/FindBy:
+  Enabled: false
+Rails/HttpStatus:
   Enabled: false
