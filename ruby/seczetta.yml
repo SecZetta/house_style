@@ -25,6 +25,10 @@ Style/RaiseArgs:
   Enabled: false
 Style/MethodCalledOnDoEndBlock:
   Enabled: false
+Style/FloatDivision:
+  Enabled: false
+Style/CaseEquality:
+  Enabled: false
 
 # temporary?
 Layout/ArgumentAlignment:
@@ -50,6 +54,8 @@ Lint/AmbiguousRegexpLiteral:
 Lint/SendWithMixinArgument:
   Enabled: false
 Lint/Void:
+  Enabled: false
+Metrics/BlockNesting:
   Enabled: false
 Metrics/MethodLength:
   Enabled: false
@@ -80,6 +86,14 @@ Style/ClassVars:
 Style/NestedTernaryOperator:
   Enabled: false
 Style/NonNilCheck:
+  Enabled: false
+Style/OptionalArguments:
+  Enabled: false
+Style/ColonMethodCall:
+  Enabled: false
+Style/IfUnlessModifierOfIfUnless:
+  Enabled: false
+Style/MultilineIfModifier:
   Enabled: false
 
 # remove w/o autocorrect
@@ -145,8 +159,24 @@ Style/RegexpLiteral:
   Enabled: false
 Style/Next:
   Enabled: false
+Style/AndOr:
+  Enabled: false
+Style/MultilineTernaryOperator:
+  Enabled: false
 
 # remove these -- autocorrect
+Layout/SpaceBeforeSemicolon:
+  Enabled: false
+Layout/EmptyLinesAroundModuleBody:
+  Enabled: false
+Layout/SpaceAfterComma:
+  Enabled: false
+Layout/EmptyLineBetweenDefs:
+  Enabled: false
+Layout/SpaceAfterColon:
+  Enabled: false
+Layout/SpaceBeforeComma:
+  Enabled: false
 Layout/SpaceBeforeBlockBraces:
   Enabled: false
 Lint/DeprecatedClassMethods:
@@ -250,4 +280,18 @@ Style/Proc:
 Style/RedundantFreeze:
   Enabled: false
 Style/ClassCheck:
+  Enabled: false
+Style/StructInheritance:
+  Enabled: false
+Style/NegatedIf:
+  Enabled: false
+Style/CommentAnnotation:
+  Enabled: false
+Style/MultipleComparison:
+  Enabled: false
+Style/RandomWithOffset:
+  Enabled: false
+Style/ModuleFunction:
+  Enabled: false
+Style/EmptyMethod:
   Enabled: false
