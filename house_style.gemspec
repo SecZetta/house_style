@@ -29,5 +29,5 @@ will be taken into account by rubocop also.
   spec.add_dependency 'rubocop-rspec', '~> 1.15'
 
   spec.add_development_dependency 'bundler', '~> 1.10'
-  spec.add_development_dependency 'rake', '~> 11.0'
+  spec.add_development_dependency 'rake', '~> 13.0'
 end
